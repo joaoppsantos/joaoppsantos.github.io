@@ -7,8 +7,12 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'> 
-            <GitHub />
-            <LinkedIn />
+            <a href='https://www.linkedin.com/in/joaopedropsantos/'>
+              <LinkedIn />
+            </a>
+            <a href='https://github.com/joaoppsantos'>
+              <GitHub />
+            </a>
         </div>
         <p> &copy; 2023 </p>
     </div>
