@@ -1,4 +1,5 @@
 import { LinkedIn, Email, GitHub } from '@material-ui/icons'
+import { Link } from "react-router-dom"
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import { Tooltip } from '@material-ui/core'
 import { useTypewriter } from 'react-simple-typewriter'
@@ -21,7 +22,7 @@ function Home() {
           </p>
           <p className='description details'>
             I have more than 6 years of experience in the area and I'm passionate in creating simple
-            solutions to complex problems. Feel free to go to <a href='experience' className='experienceLink'>Experience tab</a> to check on my past experiences. 
+            solutions to complex problems. Feel free to go to <Link to="/experience" className='experienceLink'>Experience tab</Link> to check on my past experiences. 
             <span class="fi fi-pt flag"></span> 
           </p>
           <div className='tooltips'>
