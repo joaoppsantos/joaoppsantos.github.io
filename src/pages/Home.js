@@ -16,8 +16,13 @@ function Home() {
       <div className='about'>
         <div className='prompt'>
           <h2>{typewriteText}</h2> 
-          <p className='description'>
-            Front-end developer ready to create simple solutions for complex problems <span class="fi fi-pt"></span> 
+          <p className='description greetings'>
+            My name is João Santos, I'm a front-end developer based in Porto, Portugal.
+          </p>
+          <p className='description details'>
+            I have more than 6 years of experience in the area and I'm passionate in creating simple
+            solutions to complex problems. Feel free to go to <a href='experience' className='experienceLink'>Experience tab</a> to check on my past experiences. 
+            <span class="fi fi-pt flag"></span> 
           </p>
           <div className='tooltips'>
             <Tooltip title={<h3 style={{ color: "white" }}>https://www.linkedin.com/in/joaopedropsantos/</h3>}>
